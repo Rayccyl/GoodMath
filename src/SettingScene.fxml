@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="305.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="work.Setting">
+   <children>
+      <BorderPane layoutX="14.0" layoutY="40.0" prefHeight="241.0" prefWidth="576.0">
+         <bottom>
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="78.0" text="确定" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <GridPane alignment="CENTER" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="83.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="75.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="75.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="36.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="85.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="75.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="加法：" />
+                  <Label text="减法：" GridPane.rowIndex="1" />
+                  <Label text="乘法：" GridPane.rowIndex="2" />
+                  <Label text="除法：" GridPane.rowIndex="3" />
+                  <CheckBox mnemonicParsing="false" text="启用" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <CheckBox mnemonicParsing="false" text="启用" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <CheckBox mnemonicParsing="false" text="启用" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="85.0" text="启用" GridPane.columnIndex="1" />
+                  <Label text="加数范围" GridPane.columnIndex="2" />
+                  <Label text="被减数范围" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Label text="乘数范围" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Label text="被除数范围" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <TextField GridPane.columnIndex="3" />
+                  <Label alignment="CENTER" text="-" GridPane.columnIndex="4" GridPane.halignment="CENTER" />
+                  <TextField GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextField GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <TextField GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <TextField GridPane.columnIndex="5" />
+                  <TextField GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <TextField GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <TextField GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Label text="-" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                  <Label text="-" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <Label text="-" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <Label text="和范围" GridPane.columnIndex="7" GridPane.halignment="CENTER" />
+                  <Label text="减数范围" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                  <Label text="积范围" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <Label text="除数范围" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <Label text="-" GridPane.columnIndex="9" GridPane.halignment="CENTER" />
+                  <Label text="-" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                  <Label text="-" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <Label text="-" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <TextField GridPane.columnIndex="8" />
+                  <TextField GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                  <TextField GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                  <TextField GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                  <TextField GridPane.columnIndex="10" />
+                  <TextField GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                  <TextField GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                  <TextField GridPane.columnIndex="10" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="251.0" layoutY="25.0" prefHeight="15.0" prefWidth="82.0" style="-fx-font-size: 13;" text="难度设定" />
+   </children>
+</AnchorPane>
